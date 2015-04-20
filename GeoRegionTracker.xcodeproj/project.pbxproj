@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E15B84BD1AE43BCE005F9553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B84BC1AE43BCE005F9553 /* AppDelegate.swift */; };
+		E15B84BF1AE43BCE005F9553 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B84BE1AE43BCE005F9553 /* ViewController.swift */; };
+		E15B84C21AE43BCE005F9553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15B84C01AE43BCE005F9553 /* Main.storyboard */; };
+		E15B84C41AE43BCE005F9553 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15B84C31AE43BCE005F9553 /* Images.xcassets */; };
+		E15B84C71AE43BCE005F9553 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E15B84C51AE43BCE005F9553 /* LaunchScreen.xib */; };
+		E15B84D31AE43BCE005F9553 /* GeoRegionTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B84D21AE43BCE005F9553 /* GeoRegionTrackerTests.swift */; };
+		E15B84DD1AE43C22005F9553 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15B84DC1AE43C22005F9553 /* GoogleMaps.framework */; };
+		E15B84DF1AE43C6E005F9553 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E15B84DE1AE43C6E005F9553 /* GoogleMaps.bundle */; };
+		E15B84E21AE43CFA005F9553 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15B84E11AE43CFA005F9553 /* AVFoundation.framework */; };
+		E15B84E41AE43CFF005F9553 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15B84E31AE43CFF005F9553 /* CoreData.framework */; };
+		E15B84E61AE43D05005F9553 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15B84E51AE43D05005F9553 /* CoreLocation.framework */; };
+		E15B84E81AE43D0C005F9553 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15B84E71AE43D0C005F9553 /* CoreText.framework */; };
+		E15B84EA1AE43D10005F9553 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15B84E91AE43D10005F9553 /* GLKit.framework */; };
+		E15B84EC1AE43D16005F9553 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15B84EB1AE43D16005F9553 /* ImageIO.framework */; };
+		E15B84EE1AE43D21005F9553 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E15B84ED1AE43D21005F9553 /* libc++.dylib */; };
+		E15B84F01AE43D2C005F9553 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E15B84EF1AE43D2C005F9553 /* libicucore.dylib */; };
+		E15B84F21AE43D32005F9553 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E15B84F11AE43D32005F9553 /* libz.dylib */; };
+		E15B84F41AE43D38005F9553 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15B84F31AE43D38005F9553 /* OpenGLES.framework */; };
+		E15B84F61AE43D41005F9553 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15B84F51AE43D41005F9553 /* QuartzCore.framework */; };
+		E15B84F81AE43D4A005F9553 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15B84F71AE43D4A005F9553 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E15B84CD1AE43BCE005F9553 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E15B84AF1AE43BCE005F9553 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15B84B61AE43BCE005F9553;
+			remoteInfo = GeoRegionTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E15B84B71AE43BCE005F9553 /* GeoRegionTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoRegionTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15B84BB1AE43BCE005F9553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E15B84BC1AE43BCE005F9553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E15B84BE1AE43BCE005F9553 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E15B84C11AE43BCE005F9553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E15B84C31AE43BCE005F9553 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E15B84C61AE43BCE005F9553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E15B84CC1AE43BCE005F9553 /* GeoRegionTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoRegionTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15B84D11AE43BCE005F9553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E15B84D21AE43BCE005F9553 /* GeoRegionTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoRegionTrackerTests.swift; sourceTree = "<group>"; };
+		E15B84DC1AE43C22005F9553 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = ../GoogleMaps.framework; sourceTree = "<group>"; };
+		E15B84DE1AE43C6E005F9553 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = ../GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		E15B84E11AE43CFA005F9553 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E15B84E31AE43CFF005F9553 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E15B84E51AE43D05005F9553 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E15B84E71AE43D0C005F9553 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		E15B84E91AE43D10005F9553 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		E15B84EB1AE43D16005F9553 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		E15B84ED1AE43D21005F9553 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		E15B84EF1AE43D2C005F9553 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		E15B84F11AE43D32005F9553 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E15B84F31AE43D38005F9553 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E15B84F51AE43D41005F9553 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E15B84F71AE43D4A005F9553 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E15B84F91AE43E08005F9553 /* GeoRegionTracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoRegionTracker-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E15B84B41AE43BCE005F9553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15B84F81AE43D4A005F9553 /* SystemConfiguration.framework in Frameworks */,
+				E15B84F61AE43D41005F9553 /* QuartzCore.framework in Frameworks */,
+				E15B84F41AE43D38005F9553 /* OpenGLES.framework in Frameworks */,
+				E15B84F21AE43D32005F9553 /* libz.dylib in Frameworks */,
+				E15B84F01AE43D2C005F9553 /* libicucore.dylib in Frameworks */,
+				E15B84EE1AE43D21005F9553 /* libc++.dylib in Frameworks */,
+				E15B84EC1AE43D16005F9553 /* ImageIO.framework in Frameworks */,
+				E15B84EA1AE43D10005F9553 /* GLKit.framework in Frameworks */,
+				E15B84E81AE43D0C005F9553 /* CoreText.framework in Frameworks */,
+				E15B84E61AE43D05005F9553 /* CoreLocation.framework in Frameworks */,
+				E15B84E41AE43CFF005F9553 /* CoreData.framework in Frameworks */,
+				E15B84E21AE43CFA005F9553 /* AVFoundation.framework in Frameworks */,
+				E15B84DD1AE43C22005F9553 /* GoogleMaps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15B84C91AE43BCE005F9553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E15B84AE1AE43BCE005F9553 = {
+			isa = PBXGroup;
+			children = (
+				E15B84B91AE43BCE005F9553 /* GeoRegionTracker */,
+				E15B84CF1AE43BCE005F9553 /* GeoRegionTrackerTests */,
+				E15B84B81AE43BCE005F9553 /* Products */,
+				E15B84E01AE43CB8005F9553 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E15B84B81AE43BCE005F9553 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E15B84B71AE43BCE005F9553 /* GeoRegionTracker.app */,
+				E15B84CC1AE43BCE005F9553 /* GeoRegionTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E15B84B91AE43BCE005F9553 /* GeoRegionTracker */ = {
+			isa = PBXGroup;
+			children = (
+				E15B84F91AE43E08005F9553 /* GeoRegionTracker-Bridging-Header.h */,
+				E15B84BC1AE43BCE005F9553 /* AppDelegate.swift */,
+				E15B84BE1AE43BCE005F9553 /* ViewController.swift */,
+				E15B84C01AE43BCE005F9553 /* Main.storyboard */,
+				E15B84C31AE43BCE005F9553 /* Images.xcassets */,
+				E15B84C51AE43BCE005F9553 /* LaunchScreen.xib */,
+				E15B84BA1AE43BCE005F9553 /* Supporting Files */,
+			);
+			path = GeoRegionTracker;
+			sourceTree = "<group>";
+		};
+		E15B84BA1AE43BCE005F9553 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E15B84BB1AE43BCE005F9553 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E15B84CF1AE43BCE005F9553 /* GeoRegionTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E15B84D21AE43BCE005F9553 /* GeoRegionTrackerTests.swift */,
+				E15B84D01AE43BCE005F9553 /* Supporting Files */,
+			);
+			path = GeoRegionTrackerTests;
+			sourceTree = "<group>";
+		};
+		E15B84D01AE43BCE005F9553 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E15B84D11AE43BCE005F9553 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E15B84E01AE43CB8005F9553 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E15B84F71AE43D4A005F9553 /* SystemConfiguration.framework */,
+				E15B84F51AE43D41005F9553 /* QuartzCore.framework */,
+				E15B84F31AE43D38005F9553 /* OpenGLES.framework */,
+				E15B84F11AE43D32005F9553 /* libz.dylib */,
+				E15B84EF1AE43D2C005F9553 /* libicucore.dylib */,
+				E15B84ED1AE43D21005F9553 /* libc++.dylib */,
+				E15B84EB1AE43D16005F9553 /* ImageIO.framework */,
+				E15B84E91AE43D10005F9553 /* GLKit.framework */,
+				E15B84E71AE43D0C005F9553 /* CoreText.framework */,
+				E15B84E51AE43D05005F9553 /* CoreLocation.framework */,
+				E15B84E31AE43CFF005F9553 /* CoreData.framework */,
+				E15B84E11AE43CFA005F9553 /* AVFoundation.framework */,
+				E15B84DE1AE43C6E005F9553 /* GoogleMaps.bundle */,
+				E15B84DC1AE43C22005F9553 /* GoogleMaps.framework */,
+			);
+			name = Frameworks;
+			path = GeoRegionTracker.xcodeproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E15B84B61AE43BCE005F9553 /* GeoRegionTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15B84D61AE43BCE005F9553 /* Build configuration list for PBXNativeTarget "GeoRegionTracker" */;
+			buildPhases = (
+				E15B84B31AE43BCE005F9553 /* Sources */,
+				E15B84B41AE43BCE005F9553 /* Frameworks */,
+				E15B84B51AE43BCE005F9553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoRegionTracker;
+			productName = GeoRegionTracker;
+			productReference = E15B84B71AE43BCE005F9553 /* GeoRegionTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E15B84CB1AE43BCE005F9553 /* GeoRegionTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15B84D91AE43BCE005F9553 /* Build configuration list for PBXNativeTarget "GeoRegionTrackerTests" */;
+			buildPhases = (
+				E15B84C81AE43BCE005F9553 /* Sources */,
+				E15B84C91AE43BCE005F9553 /* Frameworks */,
+				E15B84CA1AE43BCE005F9553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E15B84CE1AE43BCE005F9553 /* PBXTargetDependency */,
+			);
+			name = GeoRegionTrackerTests;
+			productName = GeoRegionTrackerTests;
+			productReference = E15B84CC1AE43BCE005F9553 /* GeoRegionTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E15B84AF1AE43BCE005F9553 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Robert Sieh";
+				TargetAttributes = {
+					E15B84B61AE43BCE005F9553 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 8E73Q4P67N;
+					};
+					E15B84CB1AE43BCE005F9553 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = E15B84B61AE43BCE005F9553;
+					};
+				};
+			};
+			buildConfigurationList = E15B84B21AE43BCE005F9553 /* Build configuration list for PBXProject "GeoRegionTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E15B84AE1AE43BCE005F9553;
+			productRefGroup = E15B84B81AE43BCE005F9553 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E15B84B61AE43BCE005F9553 /* GeoRegionTracker */,
+				E15B84CB1AE43BCE005F9553 /* GeoRegionTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E15B84B51AE43BCE005F9553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15B84C21AE43BCE005F9553 /* Main.storyboard in Resources */,
+				E15B84C71AE43BCE005F9553 /* LaunchScreen.xib in Resources */,
+				E15B84C41AE43BCE005F9553 /* Images.xcassets in Resources */,
+				E15B84DF1AE43C6E005F9553 /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15B84CA1AE43BCE005F9553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E15B84B31AE43BCE005F9553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15B84BF1AE43BCE005F9553 /* ViewController.swift in Sources */,
+				E15B84BD1AE43BCE005F9553 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15B84C81AE43BCE005F9553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15B84D31AE43BCE005F9553 /* GeoRegionTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E15B84CE1AE43BCE005F9553 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15B84B61AE43BCE005F9553 /* GeoRegionTracker */;
+			targetProxy = E15B84CD1AE43BCE005F9553 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E15B84C01AE43BCE005F9553 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E15B84C11AE43BCE005F9553 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E15B84C51AE43BCE005F9553 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E15B84C61AE43BCE005F9553 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E15B84D41AE43BCE005F9553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E15B84D51AE43BCE005F9553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E15B84D71AE43BCE005F9553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = GeoRegionTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "GeoRegionTracker/GeoRegionTracker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E15B84D81AE43BCE005F9553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = GeoRegionTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "GeoRegionTracker/GeoRegionTracker-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		E15B84DA1AE43BCE005F9553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeoRegionTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoRegionTracker.app/GeoRegionTracker";
+			};
+			name = Debug;
+		};
+		E15B84DB1AE43BCE005F9553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeoRegionTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoRegionTracker.app/GeoRegionTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E15B84B21AE43BCE005F9553 /* Build configuration list for PBXProject "GeoRegionTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15B84D41AE43BCE005F9553 /* Debug */,
+				E15B84D51AE43BCE005F9553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15B84D61AE43BCE005F9553 /* Build configuration list for PBXNativeTarget "GeoRegionTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15B84D71AE43BCE005F9553 /* Debug */,
+				E15B84D81AE43BCE005F9553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E15B84D91AE43BCE005F9553 /* Build configuration list for PBXNativeTarget "GeoRegionTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15B84DA1AE43BCE005F9553 /* Debug */,
+				E15B84DB1AE43BCE005F9553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E15B84AF1AE43BCE005F9553 /* Project object */;
+}
